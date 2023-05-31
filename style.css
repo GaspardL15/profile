@@ -1,0 +1,86 @@
+body {
+background-color: rgb(91, 71, 242);
+text-align: center;
+font-family:American Typewriter, sans-serif;
+font-size: medium ;
+line-height: 1.6 ;
+}
+
+h1 {
+color: rgb(255, 255, 255);
+font-family: American Typewriter, sans-serif ;
+text-decoration: underline;
+font-weight: bolder;
+}
+h2{
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+}
+h3:hover{
+  color:rgb(219, 22, 22)
+}
+h4 {color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;}
+  h4:hover{
+    color:rgb(219, 22, 22)
+  }
+p {
+  color: white;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: rgb(122, 184, 255)
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: blue;
+  }
+.boite {
+  background: rgb(50, 76, 107);
+  border: 2px solid black;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgb(50, 76, 107);
+}
+.boite-suivante {
+  background:rgb(122, 184, 255);
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgb(50, 76, 107);
+}
+
+.boite-encore {
+  background: rgb(57, 80, 233);
+  margin: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgb(50, 76, 107);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
